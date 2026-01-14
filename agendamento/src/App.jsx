@@ -1,4 +1,4 @@
-import agenda from './pages/agenda';
+import Agenda from './pages/agenda';
 
 function App() {
   return <agenda />;
