@@ -1,0 +1,18 @@
+body {
+  perspective: 1000px;
+  background: #7f4688;
+}
+
+.card {
+  width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #7f4688;
+  border-radius: 15px;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: rotateY(20deg) rotateX(10deg) scale(1.05);
+}
